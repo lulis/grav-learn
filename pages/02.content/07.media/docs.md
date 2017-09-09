@@ -25,7 +25,7 @@ The following media file types are supported natively by Grav. Additional suppor
 | Video              | mp4, mov, m4v, swf, flv, webm, ogv                                                                                                                                    |
 | Data / Information | txt, doc, docx, html, htm, pdf, zip, gz, 7z, tar, css, js, json, xml, xls, xlt, xlm, xlsm, xld, xla, xlc, xlw, xll, ppt, pps, rtf, bmp, tiff, mpeg, mpg, mpe, avi, wmv |
 
-A full list of supported mimetypes can be found in the `system/config/media.yaml` file.  If there is a mimetype that is not currently supported, you can simply create your own `user/config/media.yaml` and add it in there.  Just ensure you follow the same format as the original `system` file.  The simplest approach is to copy the whole original file and make your edits.
+A full list of supported mimetypes can be found in the `system/config/media.yaml` file.  If there is a mimetype that is not currently supported, you can create your own `user/config/media.yaml`. Just copy the original `media.yaml` file to `user/config/` and make your edits.
 
 ## Where to put your media files
 
